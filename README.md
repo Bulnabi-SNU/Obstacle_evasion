@@ -1,4 +1,4 @@
-<h1 align = "center"> PX4-Apriltag based auto landing control </h1>
+<h1 align = "center"> PX4-Apriltag based automatic obstacle evasion </h1>
 
 ## Demonstration & Processing pipeline description
 
