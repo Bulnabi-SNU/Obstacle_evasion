@@ -18,7 +18,7 @@ Jetson Xavier NX (Jetpack 5.0.2) - with PX4 board connected with GPIO pins
 ### Step 2 - Configure Hardware
 
 #### HOW TO ENABLE JETSON GPIO & CAMERA PIN FOR IMX477 CAMERA BOARD
-configure mission hardware pin connections(PWM inputs via GPIO -- Ground must be shared)
+configure mission hardware pin connections(PWM inputs via GPIO -- Ground must be shared)  
 connect ZED 2i camera via USB
 
 ### Step 3 - Install auto_landing package
