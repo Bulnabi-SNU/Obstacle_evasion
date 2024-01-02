@@ -11,7 +11,7 @@
 ### Step 1 - Prerequisites
 Jetson Xavier NX (Jetpack 5.0.2) - with PX4 board connected with GPIO pins   
 [ROS2 Foxy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html)   
-[PX4-Autopilot](https://github.com/PX4/PX4-Autopilot)
+[PX4-Autopilot](https://github.com/PX4/PX4-Autopilot)  
 [ZED SDK - watch for your CUDA version](https://www.stereolabs.com/developers/release)
 
 
