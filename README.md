@@ -10,11 +10,9 @@
 
 ### Step 1 - Prerequisites
 Jetson Xavier NX (Jetpack 5.0.2) - with PX4 board connected with GPIO pins   
--look for [HOW TO CONNECT JETSON-PX4] under  
-ROS2 Foxy   
-numpy  
-FastDDS(MicroXRCEDDS)  
+[ROS2 Foxy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html)   
 [PX4-Autopilot](https://github.com/PX4/PX4-Autopilot)
+[ZED SDK - watch for your CUDA version](https://www.stereolabs.com/developers/release)
 
 
 ### Step 2 - Configure Hardware
@@ -27,6 +25,7 @@ connect ZED 2i camera via USB
   ```
     cd ~/ros2_ws/src/
     git clone https://github.com/One-star11/Obstacle_evasion.git
+    pip3 install -r ./Obstacle_evasion/YOLOv5-ROS/requirements.txt
     cd ..
     colcon build --symlink-install
     source ~/ros2_ws/install/setup.bash
