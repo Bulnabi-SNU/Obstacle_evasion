@@ -1,0 +1,13 @@
+train: ~/roboflow7_13/train/images
+val: ~/roboflow7_13/valid/images
+test: ~/roboflow7_13/test/images
+
+nc: 1
+names: ['crosses']
+
+roboflow:
+  workspace: bulnabi-1qvpj
+  project: veranda-cross
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bulnabi-1qvpj/veranda-cross/dataset/3
